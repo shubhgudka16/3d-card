@@ -1,4 +1,4 @@
-/* Write CSS code here */
+
 *{
     margin:0;
     padding:0;
@@ -119,10 +119,10 @@ transform: translate3d(0, 0, 26px);
     aspect-ratio: 1;
     border-radius: 50%;
     background: rgba(0, 249, 203, 0.2);
-transition: all 0.5s ease-in-out;
-box-shadow: rgba(100, 100, 111, 0.2) -10px 10px 20px 0px;
--webkit-backdrop-filter: blur(5px);
-backdrop-filter: blur(5px);
+    transition: all 0.5s ease-in-out;
+    box-shadow: rgba(100, 100, 111, 0.2) -10px 10px 20px 0px;
+    -webkit-backdrop-filter: blur(5px);
+     backdrop-filter: blur(5px);
 
 }
 .circle1{
@@ -137,8 +137,8 @@ backdrop-filter: blur(5px);
     top:10px;
     transition-delay: 0.4s;
     transform: translate3d(0, 0, 40px);
--webkit-backdrop-filter: blur(1px);
-backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+     backdrop-filter: blur(1px);
 
 }
 .circle3{
@@ -208,4 +208,5 @@ backdrop-filter: blur(1px);
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.349) 0%, rgba(255, 255, 255, 0.815) 100%);
   transform: translate3d(0px, 0px, 25px);
   transition: all 0.5s ease-in-out;
+
 }
